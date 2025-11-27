@@ -1,2 +1,3 @@
 # BussingMate
-BussingMate is an intelligent table-management system that lets a robot clean and set tables automatically in restaurants. It integrates ROS2, voice commands, LLM-based task parsing, and a real-time GUI.
+BussingMate is an integrated robotics system that enables a robot to automatically clean and set tables in restaurant environments.
+It combines ROS2, YOLO-based perception, reinforcement learning for motion/decision policies, LLM-based voice command parsing, and a real-time React/Vite GUI.
