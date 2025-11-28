@@ -33,8 +33,8 @@ class FrankaCubeLiftEnvCfg(LiftEnvCfg):
         super().__post_init__()
 
         # env 개수 / 간격 (원하면 여기서 override)
-        self.scene.num_envs = 4
-        self.scene.env_spacing = 2.5
+        # self.scene.num_envs = 4
+        # self.scene.env_spacing = 2.5
 
         # 1) 로봇 설정: Franka
         self.scene.robot = FRANKA_PANDA_CFG.replace(prim_path="{ENV_REGEX_NS}/Robot")
