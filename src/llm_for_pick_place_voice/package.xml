@@ -11,6 +11,7 @@
   <depend>std_msgs</depend>
   <depend>std_srvs</depend>
   <depend>example_interface</depend>
+  <depend>interface_pkg</depend>
   <depend>ament_index_python</depend>
   <depend>rosidl_default_generators</depend>
   <depend>rosidl_default_runtime</depend>

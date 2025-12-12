@@ -13,7 +13,7 @@ setup(
         # .env 파일, wakeupword 모델 파일을 package data에 포함
         ('share/' + package_name + '/resource', ['resource/.env', 'resource/alexa.onnx', 'resource/hey_yong_yihan.onnx']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'interface_pkg'],
     zip_safe=True,
     maintainer='hun',
     maintainer_email='jihun3333@gmail.com',
@@ -32,6 +32,10 @@ setup(
             'wakeup_word = llm_for_pick_place_voice.wakeup_word:main',
             'ros_web_bridge = llm_for_pick_place_voice.ros_web_bridge:main',
             'arrive_test = llm_for_pick_place_voice.arrive_test:main',
+            'test_robot = llm_for_pick_place_voice.test_robot:main',
+            'test_bridge = llm_for_pick_place_voice.test_bridge:main',
+            'pick_rl_node = llm_for_pick_place_voice.pick_rl_node:main',
+            'place_rl_node = llm_for_pick_place_voice.place_rl_node:main',
         ],
     },
 )
